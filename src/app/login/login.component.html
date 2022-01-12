@@ -1,4 +1,6 @@
-<p>login works!</p>
+<div class="myclass">
+<div class="d-flex justify-content-center align-items-center" style="height:100px;">
+<div class="w-50 p-3">
 <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
 <div class="container-fluid">
 <h2 class="form-signin-heading">Login</h2>
@@ -10,6 +12,10 @@
 <label for="password" class="sr-only">Password</label>
 <input type="password" id="password" name="password" ngModel class="form-control" placeholder="password" required/>
 <br/>
-<button type="submit">Sign in</button>
+<button type="submit" class="btn btn-primary">Sign in</button>
 </div>
 </form>
+
+</div>
+</div>
+</div>
